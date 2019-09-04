@@ -7,6 +7,7 @@
            revision="refs/tags/android-10.0.0_r2" />
   
   <default revision="refs/heads/master"
+           fetch="https://github.com"
            remote="github"
            sync-c="true"
            sync-j="4" />
