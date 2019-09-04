@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="github"
-           fetch="https://github.com/PACROM"
-           revision="refs/heads/master" />
-
 <project path="device/google/marlin" name ="PACROM/androidx_device_google_marlin" remote="github" />
 <project path="kernel/google/marlin" name ="PACROM/androidx_kernel_google_marlin" remote="github" />
 
