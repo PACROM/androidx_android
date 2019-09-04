@@ -7,10 +7,6 @@
   <default revision="refs/tags/android-10.0.0_r2"
            remote="aosp"
            sync-j="4" />
-  
-  <remote  name="github"
-           fetch="https://github.com"
-           sync-j="4" />
 
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -769,10 +765,11 @@
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <project path="tools/trebuchet" name="platform/tools/trebuchet" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" />
 
-  <!-- PACROM additions -->
-  <project path="device/google/marlin" name ="PACROM/androidx_device_google_marlin" remote="github" revision="master" />
-  <project path="kernel/google/marlin" name ="PACROM/androidx_kernel_google_marlin" remote="github" revision="master" />
-  
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+  
+  <!-- PACROM additions -->
+  <include name="manifests/pacrom.xml" />
+  
+  
 
 </manifest>
