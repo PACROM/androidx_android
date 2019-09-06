@@ -15,6 +15,7 @@
 	
 	<remote  name="gl"
            fetch="https://gitlab.com/ShoreDroid/"
+	   revision=".."
 	   sync-j="4" />
 	
   <project path="build/make" name="platform/build" groups="pdk" >
