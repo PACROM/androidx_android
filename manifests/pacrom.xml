@@ -3,6 +3,5 @@
 
 <project path="device/google/marlin" name="PACROM/androidx_device_google_marlin" remote="github" />
 <project path="kernel/google/marlin" name="PACROM/androidx_kernel_google_marlin" remote="github" />
-<project path="vendor" name="androidx_vendor" remote="gl" revision="master" />
 
 </manifest>
