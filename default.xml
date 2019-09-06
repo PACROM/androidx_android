@@ -14,7 +14,7 @@
 	   sync-j="4" />
 	
 	<remote  name="gl"
-           fetch="https://gitlab.com/"
+           fetch="https://gitlab.com/ShoreDroid/"
            revision="master"
 	   sync-j="4" />
 	
