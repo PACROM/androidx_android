@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<project path="device/google/marlin" name ="PACROM/androidx_device_google_marlin" remote="github" />
-<project path="kernel/google/marlin" name ="PACROM/androidx_kernel_google_marlin" remote="github" />
+<project path="device/google/marlin" name="PACROM/androidx_device_google_marlin" remote="github" />
+<project path="kernel/google/marlin" name="PACROM/androidx_kernel_google_marlin" remote="github" />
+<project path="vendor/google_devices" name="PACROM/androidx_vendor_google_devices" remote="github" />
 
 </manifest>
