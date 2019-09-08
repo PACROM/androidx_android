@@ -5,4 +5,4 @@
 <project path="kernel/google/marlin" name="PACROM/androidx_kernel_google_marlin" remote="github" />
 <project path="device/google/marlin-kernel" name="PACROM/androidx_device_google_marlin-kernel" remote="github" />
   
-</manifest>d
+</manifest>
